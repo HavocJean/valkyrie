@@ -21,7 +21,6 @@
         $img_personagem = 'imgs/personagem/'.$arquivo['name'];
 
         $personagem->cadastrarPersonagem($nome_personagem, $id_tipo_atq, $id_raca, $id_despertavel, $id_elemento, $biografia, $id_ranque, $hab_acao, $limit_burst, $hab_passiva, $img_personagem);
-        header("Location: admin.php");
     }
 
     include_once "class/ClassArmas.php";
@@ -50,7 +49,7 @@
         $img_arma = 'imgs/arma/'.$arquivo['name'];
         
         $arma->cadastrarArma($nome_arma, $id_tipo_atq, $hp, $atq, $atqm, $def, $defm, $vel, $prec, $id_raca, $nota, $desc_habilidade, $onde_conseguir, $img_arma);
-        header("Location: admin.php");
+        echo "<script>alert('Arma cadastrada com sucesso!');</script>";
     }
 ?>
 
@@ -76,7 +75,6 @@
             <button type="button" onclick="MostrarPersonagem('')">Cadastrar Acessórios</button>
             <button type="button" onclick="MostrarPersonagem('')">Cadastrar outros?</button>
         </nav>
-
 
         <!-- ADICIONAR PERSONAGEM HTML -->
         <div id="adicionarpersonagem">
