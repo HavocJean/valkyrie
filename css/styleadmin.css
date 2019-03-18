@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.admin {
+    width: 1090px;
+    height: 20px;   
+    background-color: #EEE;
+    margin: 0 auto;
+}
+
+.admin h1, .admin p {
+    margin: 0px;
+    float: left;
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.botoes {
+    width: 1090px;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 10px;
+}
+
+.botoes button {
+    width: 16.5%;
+    height: 40px;
+    border: 1px solid #0c749b;
+    border-radius: 5px;
+    background-color: #ededed;
+    float: left;
+    margin-left: 1px;
+}
+
+.botoes button:hover {
+    color: #0c749b;
+    cursor: pointer;
+}
+
+.botaoenviar {
+    width: 170px !important;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#adicionarpersonagem, #adicionararma {
+    clear: both;
+    padding-top: 40px;
+    width: 1090px;
+    margin: 0 auto;
+}
+
+#adicionarpersonagem, #adicionararma {
+    display: none;
+}
+
+#adicionarpersonagem label, #adicionararma label {
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#adicionarpersonagem input, select {
+    margin-left: 3px;
+    margin-top: 10px;
+    height: 24px;   
+}
+
+#adicionarpersonagem textarea, #adicionararma textarea {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 500px;
+}
+
+#adicionararma input {
+    margin-left: 3px;
+    height: 24px;
+    margin-bottom: 10px;
+    width: 80px;
+}
+
+.nomearma {
+    width: 170px !important;
+}
+
+.arquivo {
+    width: 500px !important;
+}
